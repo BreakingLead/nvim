@@ -118,7 +118,7 @@ function M.register_key()
     api.map.bulk_register({
         {
             mode = { "n" },
-            lhs = "<leader>1",
+            lhs = "<M-m>",
             rhs = function()
                 aux_public.toggle_sidebar("NvimTree")
                 vim.cmd("NvimTreeToggle")

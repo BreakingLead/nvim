@@ -121,14 +121,14 @@ function M.register_key()
         },
         {
             mode = { "n" },
-            lhs = "<c-h>",
+            lhs = "<M-h>",
             rhs = "<cmd>BufferLineCyclePrev<cr>",
             options = { silent = true },
             description = "Go to left buffer",
         },
         {
             mode = { "n" },
-            lhs = "<c-l>",
+            lhs = "<M-l>",
             rhs = "<cmd>BufferLineCycleNext<cr>",
             options = { silent = true },
             description = "Go to right buffer",
