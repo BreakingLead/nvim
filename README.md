@@ -12,11 +12,9 @@ This is a configuration based on neovim 0.8, it has good extensibility, and at t
 
 ## screenshot
 
-![](https://images-1302522496.cos.ap-nanjing.myqcloud.com/img/20220628175433.png)
+![2022-07-25_17-03_1](https://user-images.githubusercontent.com/81478335/180747728-161648ff-dcb7-406f-b606-3f790fc85827.png)
 
-![](https://images-1302522496.cos.ap-nanjing.myqcloud.com/img/20220628175834.png)
-
-![](https://images-1302522496.cos.ap-nanjing.myqcloud.com/img/20220628180054.png)
+![2022-07-25_17-04](https://user-images.githubusercontent.com/81478335/180747722-7780c843-efee-4e22-a7f2-cae26840ddd5.png)
 
 ## dependencies
 
@@ -35,7 +33,7 @@ $ yay -S sed
 $ yay -S ripgrep
 
 -- * neovim rely
-$ npm install -g neovim
+$ npm i -g neovim
 $ pip3 install neovim
 
 --* Python diagnostics (use Pyright by default)
@@ -49,8 +47,8 @@ $ pip3 install django-stubs
 
 -- * Code format
 $ yay -S stylua
-$ npm install -g prettier
-$ npm install -g gofmt
+$ npm i -g prettier
+$ npm i -g gofmt
 $ pip3 install autopep8
 $ pip3 install sqlformat
 
@@ -58,7 +56,7 @@ $ pip3 install sqlformat
 $ yay -S delve
 
 -- * Python debug
-$ python3 -m pip install debugpy
+$ pip3 install debugpy
 
 -- * Lazygit
 $ yay -S lazygit
@@ -68,14 +66,14 @@ $ yay -S translate-shell
 
 -- * Markdown preview
 $ yay -S pandoc
-$ npm install -g live-server
+$ npm i -g live-server
 
 -- * Tabnine require
 $ yay -S unzip
 $ yay -S curl
 
 -- * Image upload to image bed function
-$ npm install picgo -g
+$ npm i -g picgo
 
 -- * mysql client linker
 $ yay -S percona-server-clients

@@ -44,7 +44,7 @@ local aux_lsp = {
 
 function aux_lsp.get_active_lsp_clients()
     local active_clients = vim.lsp.get_active_clients()
-    local ignore_lsp = { "copilot", "null-ls"}
+    local ignore_lsp = { "copilot", "null-ls" }
     local buf_ft = vim.bo.filetype
 
     if buf_ft ~= "markdown" then
